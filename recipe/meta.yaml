@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: $PYTHON setup.py install
   entry_points:
     - docsteady = docsteady:cli
@@ -21,7 +21,7 @@ requirements:
     - pip
     - click
     - arrow
-    - marshmallow 2.19
+    - marshmallow 2.18
     - setuptools_scm
     - sphinx
     - sphinx-click
@@ -36,7 +36,7 @@ requirements:
     - jinja2
     - click
     - BeautifulSoup4
-    - marshmallow <3
+    - marshmallow 2.18
     - pyandoc
     - arrow
 
